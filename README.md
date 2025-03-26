@@ -10,7 +10,7 @@ A simple and elegant **User Profile Card** with an interactive **"Add Friend"** 
 
 ## 📌 Technologies Used
 - HTML5
-- CSS3 (Custom Styling)
+- CSS3 
 - JavaScript (DOM Manipulation)
 
 ## 🎥 Preview
