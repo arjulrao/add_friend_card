@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Poppins;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: #121212;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card{
+    text-align: center;
+    padding: .7em .3em;
+    background-color: #1e1e1e;
+    color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    border: 1.5px solid #e5e7eb;
+    border-radius: 10px;
+    line-height: 1.4;
+    box-shadow: 0px 0px 20px rgba(219, 39, 119, 0.3);
+    transition: all 0.5s ease-in-out;
+    animation: fadeIn 0.6s ease-in-out;
+}
+#card h3 {
+    font-size: 2rem;
+}
+#card img{
+    width: 40%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    object-fit: fill;
+    margin: 0.5rem 0;
+}
+#card p ,span {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+#card #age {
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+#status{
+    color: #f52121ef;
+}
+#btn {
+    background-color: transparent;
+    padding: 1rem 1.5rem;
+    margin: 0.8rem 0;
+    font-size: 1.3rem;
+    color: #e5e7eb;
+    border: 1.5px solid #e5e7eb;
+    border-radius: 2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+#card:hover {
+    box-shadow: 0px 0px 10px rgba(236, 72, 153, 0.5), 
+            0px 0px 20px rgba(219, 39, 119, 0.3);
+    width: 26%;
+}
+
+#card #btn:hover {
+    box-shadow: 0px 0px 10px rgba(236, 72, 153, 0.5), 
+    0px 0px 20px rgba(219, 39, 119, 0.3);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+

@@ -29,7 +29,7 @@ A simple and elegant **User Profile Card** with an interactive **"Add Friend"** 
 
 
 ## 📬 Connect With Me
-- 🔗 [LinkedIn](https://www.linkedin.com/in/arjulrao)
+- 🔗 [LinkedIn](www.linkedin.com/in/rao-arjul)
 - 📸 [Instagram](https://www.instagram.com/arjul.dev)
 - 💻 [GitHub](https://github.com/arjulrao)
 # add_friend_card
